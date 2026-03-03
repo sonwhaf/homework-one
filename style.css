@@ -41,3 +41,31 @@ h1 {
 p {
     line-height: 1.6;
 }
+/* ========================= */
+/* Tablet View - 772px      */
+/* ========================= */
+@media screen and (min-width: 772px) {
+
+    div {
+        display: inline-block;
+        width: 45%;
+        margin: 2%;
+        vertical-align: top;
+    }
+
+    img {
+        max-height: 30vh;
+    }
+}
+
+
+/* ========================= */
+/* Large Screen View - 998px */
+/* ========================= */
+@media screen and (min-width: 998px) {
+
+    div {
+        width: 30%;
+    }
+
+}
