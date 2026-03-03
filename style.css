@@ -69,3 +69,30 @@ p {
     }
 
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+figure {
+    border: 2px solid gray;
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
